@@ -24,7 +24,7 @@ steps:
     gcloud config set project zaman-project-441610
     gcloud config set functions/region us-central1
     echo "Deploying Cloud Function..."
-    gcloud functions deploy visitorCounterFunction \
+    gcloud functions deploy function-1 \
       --region=us-central1 \
       --runtime=python311 \
       --trigger-http \
